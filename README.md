@@ -18,6 +18,32 @@ Clone this repo as a submodule into an existing project with the folder name `te
 
 it will create the folder test at the root of your project
 
+2. add npm dependencies to package.json
+
+```
+"chai": "~3.4.1",
+"deepmerge": "~0.2.7",
+"glob": "~6.0.1",
+"mocha": "2.3.3",
+"q": "~1.4.1",
+"webdriverio": "~3.4.0",
+"yadda": "~0.16.0",
+"phantomjs": "1.9.19",
+"selenium-standalone": "4.8.0"
+```
+
+3. add test script to package.json
+
+```
+"test": "./test/run.js"
+```
+
+4. Run the tests
+
+`npm test` will run the tests then watch and wait for a file change to rerun the tests.
+
+> Remove the watch arguments form the config.js mochaOpts before putting on a CI. Else the CI will break when it hangs on watch.
+
 ## Backporting changes to this repo
 If you've fixed an error added a change you want to port back to this repo as long as your in the root of the test directory any commits 
 

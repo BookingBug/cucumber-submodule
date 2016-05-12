@@ -25,4 +25,4 @@ If you've fixed an error added a change you want to port back to this repo as lo
 Just commit from the root of your project as you would do normally and it'll commit the custom code you've added to the test directory without affecting this repo.
 
 ## Get updates to the submodule
-just run `git submodule update`
+just run `git submodule update --remote`

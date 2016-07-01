@@ -29,6 +29,7 @@ it will create the folder test at the root of your project
 "mocha": "2.3.3",
 "q": "~1.4.1",
 "webdriverio": "~3.4.0",
+"webdriverjs-angular": "0.1.3",
 "yadda": "~0.16.0",
 "phantomjs": "1.9.19",
 "selenium-standalone": "4.8.0"

@@ -1,4 +1,4 @@
-var WebdriverIO = require('webdriverio'),
+var webdriverjsAngular = require('webdriverjs-angular'),
   merge = require('deepmerge'),
   config = require('../support/configure'),
   BeforeHook;
